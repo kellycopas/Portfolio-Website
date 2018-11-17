@@ -1,0 +1,331 @@
+/*-------------
+ 	General
+-------------*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font: normal 16px 'Open Sans', sans-serif;
+	color: #555;
+}
+
+ul, nav{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+	opacity: 0.9;
+}
+
+a:hover{
+	opacity: 1;
+}
+
+button{
+	color: #fff;
+	border-radius: 4px;
+	text-transform: uppercase;
+	background-color: #414a4f;
+	font: 800 16px 'Open Sans', sans-serif;
+	text-align: center;
+	cursor: pointer;
+}
+
+button:focus{
+ 	outline:none !important;
+}
+
+hr{
+	width: 150px;
+	height: 2px;
+	background-color: #555;
+	border: 0;
+	margin-bottom: 80px;
+}
+
+section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	padding: 125px 100px 60px;
+}
+
+@media (max-width: 1000px){
+
+	section{
+		padding: 100px 50px 60px;
+	}
+
+}
+
+@media (max-width: 600px){
+
+	section{
+		padding: 80px 30px 40px;
+	}
+
+}
+
+section h3.title{
+	color: #414a4f;
+	text-transform: capitalize; 
+	font: bold 32px 'Open Sans', sans-serif;
+	letter-spacing: 0.5px;
+	margin-bottom: 35px;
+	text-align: center;
+}
+
+section p{
+	max-width: 800px;
+	text-align: center;
+	margin-bottom: 35px;
+	padding: 0 20px;
+	line-height: 2;
+}
+
+ul.grid{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+/*-------------
+ 	Header
+-------------*/
+
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+	padding: 25px 50px 0;
+}
+
+header nav{
+	display: flex;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	width: 100%;
+	justify-content: flex-end;
+	align-items: center;
+	color: #414a4f;
+	padding: 5px 0 20px 0;
+	overflow: hidden;
+	border: none;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+header nav a:hover{
+	font-weight: bold;
+}
+
+header nav li{
+	margin: 0 15px;
+}
+
+header nav li:first-child{
+	margin-left: 0;	
+}
+
+header nav li:last-child{
+	margin-right: 0;	
+}
+
+
+
+@media (max-width: 1000px){
+	header{
+		padding: 20px 50px;
+	}
+}
+
+
+@media (max-width: 700px){
+	header{
+		flex-direction: column;		
+	}
+}
+
+
+
+/*--------------------
+ 	Project Hero Section
+--------------------*/
+
+.project.hero{
+	background-color: #F9DBD0;
+}
+
+
+.project.hero p{
+	text-align: center;
+	width: 80%;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+
+@media (max-width: 1000px){
+
+	.project.hero p{
+		font-size: 20px;
+	}
+
+}
+
+
+/*--------------------
+ 	Project Main Section
+--------------------*/
+
+.project.main{
+	background-color: #fff;
+	padding-top: 70px;
+}
+
+.project.main figcaption{
+	font-size: 11px;
+	text-align: center;
+	color: #414a4f;
+}
+
+.project.main p{
+	text-align: center;
+	width: 80%;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 0;
+}
+
+.project.main button{
+	background-color: #414a4f;
+	border: 1px solid #414a4f;
+	color: #fff;
+	letter-spacing: 1px;
+	padding: 15px 0;
+	margin-bottom: 20px;
+	opacity: 1;
+	width: 280px;
+	transition: all 0.7s ease;
+}
+
+.project.main button:hover{
+	background: rgba(0,0,0,0);
+	color: #414a4f;
+	box-shadow: inset 0 0 0 1px #414a4f;
+}
+
+.project.main button.ux {
+	margin-bottom: 60px;
+}
+
+.project.main .main-imgs{
+	width: 800px;
+	height: auto;
+}
+
+.project.main #cssimg{
+	margin-top: 30px;
+}
+
+.project.main nav.ux{
+	display: flex;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	width: 100%;
+	justify-content: flex-end;
+	align-items: center;
+	color: #414a4f;
+	padding: 30px 20px 5px 10px;
+	overflow: hidden;
+	border: none;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+@media (max-width: 1000px){
+
+	.project.main p{
+		font-size: 20px;
+	}
+	.project.main .main-imgs{
+		width: 100%;
+		height: auto;
+	}
+
+}
+
+
+/*-------------
+ 	Footer
+-------------*/
+
+footer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	color: #555;
+	background-color: #F9DBD0;
+	padding: 60px 0;
+}
+
+footer ul{
+	display: flex;
+	margin-bottom: 25px;
+	font-size: 32px;
+}
+
+footer ul li{
+	margin: 0 6px;	
+}
+
+footer ul li:first-child{
+	margin-left: 0;	
+}
+
+footer ul li:last-child{
+	margin-right: 0;	
+}
+
+footer p{
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #555;
+	margin-bottom: 10px;
+}
+
+
+@media (max-width: 700px){
+
+	footer{
+		padding: 80px 15px;
+	}
+
+}
