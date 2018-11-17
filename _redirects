@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+http://awesome-hoover-e15897.netlify.com/* http://www.kellycopas.com/:splat 301!
