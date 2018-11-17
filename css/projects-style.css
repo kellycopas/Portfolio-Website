@@ -137,15 +137,15 @@ header nav a:hover{
 	font-weight: bold;
 }
 
-header nav li{
+header nav{
 	margin: 0 15px;
 }
 
-header nav li:first-child{
+header nav:first-child{
 	margin-left: 0;	
 }
 
-header nav li:last-child{
+header nav:last-child{
 	margin-right: 0;	
 }
 
