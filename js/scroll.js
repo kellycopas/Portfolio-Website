@@ -6,3 +6,14 @@ $(function() {
       return false;
     });
   });
+
+// Arrow to appear to return to top. 
+$(window).scroll(function() {
+    // If page is scrolled more than 1400px
+    if ($(this).scrollTop() >= 900) { 
+        // Fade in the arrow.       
+        $('#arrow-up').fadeIn(200);    
+    } else {
+        $('#arrow-up').fadeOut(200);   
+    }
+});
