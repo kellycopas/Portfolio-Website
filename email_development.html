@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Kelly Copas</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/projects-style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/scroll.js"></script>
+</head>
+
+<body>
+
+	<header>
+		<nav>
+			<a href="index.html"><i class="fa fa-arrow-left" aria-hidden="true"></i> BACK TO HOME</a>
+		</nav>
+	</header>
+
+	<!-- Arrow to appear to go back up to top -->
+		<a href="#top" id="arrow-up"><i class="fas fa-chevron-up"></i></a>
+	
+	<section class="project hero">
+		<a href="index.html"><img src="img/logo_dark.png" id="logo" alt="logo" /></a>
+		<h3 class="title">EMAIL DEVELOPMENT & CSS ANIMATION</h3>
+	</section>
+
+	<section class="project main">
+		<video id="email1" width="700" height="400" frameborder="0" allowfullscreen autoplay loop muted>
+			<source src="img/image_scrolling_effect.mp4" type="video/mp4">
+		</video>
+			<p>As part of my University degree, I undertook a year long work placement in a digital marketing agency where I was working as a Digital Developer. The role involved building and testing emails and web banners for clients such as Samsung, St John's Ambulance, and Opus Energy. This has helped to develop HTML, CSS, and responsive design skills.
+
+			<br/><br/>To retain customer engagement, it was necessary to continue to test new email techniques, including CSS animations, whilst also adding fallbacks for email clients with less support. A particular task I worked on was to use CSS transitions to create an image scrolling effect so that the image appears to be moving from left to right (above). However, not all email clients support CSS transitions and so it was also necessary to set a fallback to be a GIF. Therefore, attention to detail and testing were important to ensure emails display correctly on multiple browsers and devices.</p>
+			<button class="btn" onclick="window.open('scrolling_image/email.html','_blank')">VIEW IN BROWSER</button>
+
+		<video id="email2" width="700" height="400" frameborder="0" allowfullscreen autoplay loop muted>
+			<source src="img/fade_in_effect.mp4" type="video/mp4">
+		</video>
+			<p class="para2">Another example that I built was to use CSS transitions to add a fade-in effect to the main content of an email to emphasise the launch of the new Samsung S9 phone.</p>
+			<button class="btn" onclick="window.open('fade_in/email.html','_blank')">VIEW IN BROWSER</button>		
+	</section>
+
+	<footer>
+		<ul>
+			<li><a href="mailto:kelly.copas@sky.com" target="_blank"><i class="fas fa-envelope-square"></i></a></li>
+			<li><a href="https://www.linkedin.com/in/kelly-copas-6a4280120/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+			<li><a href="https://twitter.com/kellyjcopas_ux" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+			<li><a href="https://github.com/kellycopas" target="_blank"><i class="fab fa-github-square"></i></a></li>
+		</ul>
+		<p>&copy; Kelly Copas 2019.</p>
+	</footer>
+
+</body>
+
+</html>
