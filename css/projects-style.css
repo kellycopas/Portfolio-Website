@@ -286,19 +286,27 @@ header nav:last-child{
 	width: 800px;
 	height: auto;
 }
-.project.main img#cityscape-design{
+.project.main img#cityscape-design {
 	width: 100%;
 	max-width: 600px;
-	height: auto;
+	height: 600px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 .project.main img#unlock_bristol_past {
 	width: 100%;
 	max-width: 600px;
-	height: auto;
+	height: 700px;
 	padding-bottom: 20px;
 	padding-top: 20px;
+}
+@media (max-width: 800px){
+	.project.main img#unlock_bristol_past {
+		height: auto !important;
+	}
+	.project.main img#cityscape-design {
+		height: auto !important;
+	}
 }
 .project.main #cssimg{
 	margin-top: 30px;
