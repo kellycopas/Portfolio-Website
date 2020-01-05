@@ -237,6 +237,10 @@ header nav:last-child{
     margin-bottom: 30px;
     padding: 0;
 }
+.project.main p#center {
+	text-align: center !important;	
+	margin-top: 0px !important;
+}
 .project.main p.margin {
 	margin-top: 20px;
 	margin-bottom: 20px;
