@@ -303,15 +303,19 @@ footer p {
 	.about .col-12,.col-sm-12 {
 		text-align: center !important;
 	}
+	.about .col-12 img {
+		margin-left: 0 !important;
+	}
 	.about h2 {
 		padding-top: 20px !important;
 	}
 	.about p {
-		padding-right: 20px !important;
-		padding-left: 20px !important;
+		padding-right: 30px !important;
+		padding-left: 30px !important;
 	}
 	.about .col-12 {
 		padding-left: 0 !important;
+		padding-right: 0 !important;
 	}
 	#characterimg {
 		max-width: 200px !important;
