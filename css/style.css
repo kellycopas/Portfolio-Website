@@ -261,7 +261,7 @@ footer p {
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
 	.background-image {
-		background-image: url('images/header_mob.png') !important;
+		background-image: url('../images/header_mob.png') !important;
 		height: 500px !important;
 	}
 	.carousel-control-prev {
