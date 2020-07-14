@@ -11,8 +11,8 @@ $(function() {
 
 // Arrow to appear to return to top. 
 $(window).scroll(function() {
-    // If page is scrolled more than 1000px
-    if ($(this).scrollTop() >= 1000) { 
+    // If page is scrolled more than 800px
+    if ($(this).scrollTop() >= 800) { 
         // Fade in the arrow.       
         $('#arrow-up').fadeIn(200);    
     } else {
