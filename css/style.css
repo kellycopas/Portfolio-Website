@@ -66,9 +66,9 @@ textarea:focus {
 }
 
 .full-container {
-	-webkit-box-shadow: 0px -10px 30px rgba(50, 50, 50, 0.75);
-    -moz-box-shadow: 0px -10px 30px rgba(50, 50, 50, 0.75);
-    box-shadow: 0px -10px 30px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 0px 5px 30px rgba(50, 50, 50, 0.75);
+  	-webkit-box-shadow: 0px 5px 30px rgba(50, 50, 50, 0.75);
+  	box-shadow: 0px 5px 30px rgba(50, 50, 50, 0.75);
 }
 
 .background-image {
@@ -76,6 +76,9 @@ textarea:focus {
     background-repeat: no-repeat;
     background-size:100% auto;
     height: 393px;
+	-moz-box-shadow: 0px 5px 30px rgba(50, 50, 50, 0.75);
+  	-webkit-box-shadow: 0px 5px 30px rgba(50, 50, 50, 0.75);
+  	box-shadow: 0px 5px 30px rgba(50, 50, 50, 0.75);
 }
 
 .nav-link {
