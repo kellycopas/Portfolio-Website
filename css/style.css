@@ -264,6 +264,22 @@ footer p {
 		background-image: url('../images/header_mob.png') !important;
 		height: 500px !important;
 	}
+	.about .col-12 img {
+		max-width: 230px !important;
+		margin-left: 40px !important;
+	}
+	.about .col-12 {
+		padding-left: 0 !important;
+	}
+	.about h2 {
+		padding-left: 0 !important;
+	}
+	.about p {
+		padding-left: 0 !important;
+	}
+	.about button {
+		margin-left: 0 !important;
+	}
 	.carousel-control-prev {
 		padding-right: 60px !important;
 	}
