@@ -129,7 +129,7 @@ textarea:focus {
 
 .work-content {
 	margin: 0 auto !important;
-	text-align: center !important;
+	text-align: left !important;
 }
 .work {
 	text-align: center !important;
