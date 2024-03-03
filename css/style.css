@@ -154,6 +154,10 @@ footer .logo {
 	box-shadow: none !important;
 }
 
+#emailCarousel {
+	background-color: rgba(179, 179, 179, 0.13);
+}
+
 
 @media (max-width: 767.98px) {
 	.nav-link {
