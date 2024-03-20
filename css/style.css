@@ -158,6 +158,11 @@ footer .logo {
 	background-color: rgba(179, 179, 179, 0.13);
 }
 
+.youtube-video {
+    aspect-ratio: 16 / 9;
+  	width: 100%;
+}
+
 
 @media (max-width: 767.98px) {
 	.nav-link {
