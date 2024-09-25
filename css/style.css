@@ -86,7 +86,7 @@ footer .logo {
 }
 
 #header {
-	max-width: 850px;
+	max-width: 830px;
 
 	h1 {
 		background-image: linear-gradient(to right, rgb(165, 181, 255), rgb(255, 123, 93) 50%, rgb(230, 156, 255));
