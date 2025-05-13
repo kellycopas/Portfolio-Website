@@ -163,6 +163,10 @@ footer .logo {
   	width: 100%;
 }
 
+.clickable {
+	cursor: pointer;
+}
+
 
 @media (max-width: 767.98px) {
 	.nav-link {
