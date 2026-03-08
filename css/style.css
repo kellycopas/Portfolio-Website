@@ -167,6 +167,11 @@ footer .logo {
 	cursor: pointer;
 }
 
+#work video {
+	border-radius: 0.5rem;
+	border: 1px solid rgba(0, 0, 0, 0.16);
+}
+
 
 @media (max-width: 767.98px) {
 	.nav-link {
